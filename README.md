@@ -38,14 +38,19 @@ The project rubric below reflects all criteria for "meet specifications". Make s
 * Submit both the source and production code in the same repository in separate folders
 * Submit code through Link to Project
 
-### Optimizations 
+### How I completed this project
+1. Reviewed the course on Website Performance Optimization using Google PageSpeed.
+2. Downloaded the required project assets.
+3. Used Chrome Developer Tools to review the current state of various pages within the application and identified areas for improvement.
+4. Reviewed the code powering the website and identified areas where I believe modifications are warranted.
+5. Iteratively made changes and tested those changes using the tools available to me to determine if they were a performance gain or loss.### Optimizations 
 *	set the javascript to async, to prevent blocking
 *	optimized the images using Kraken.io (https://kraken.io/web-interface), the page speed got to a score of 86
 *	changed the font loading, moved the css to inline, to prevent render blocking, got to a score of 88
 *	used grunt with cssmin, uglifier and htmlmin to minify the JS, CSS and HTML, got to a score of 93
 *	main
 
-### Resources Used:
+### Resources Used
 *	https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer#minification-preprocessing--context-specific-optimizations
 *	https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer#text-compression-with-gzip
 *	https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching
@@ -65,18 +70,4 @@ The project rubric below reflects all criteria for "meet specifications". Make s
 * <a href="https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization.html">Optimize images</a>
 * <a href="https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching.html">HTTP caching</a>
 
-### Customization with Bootstrap
-The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstrap</a> framework. All custom styles are in `dist/css/portfolio.css` in the portfolio repo.
 
-* <a href="http://getbootstrap.com/css/">Bootstrap's CSS Classes</a>
-* <a href="http://getbootstrap.com/components/">Bootstrap's Components</a>
-
-### How will I complete this project?
-1. Review our course on Website Performance Optimization using Google PageSpeed.
-2. Download the required project assets.
-3. Use Chrome Developer Tools to review the current state of various pages within the application and identify areas for improvement.
-4. Review the code powering the website and identify areas where you believe modifications are warranted.
-5. Iteratively make changes and test those changes using the tools available to you to determine if they are a performance gain or loss.
-
-### Evaluation
-Your project will be evaluated by a Udacity reviewer according to the rubric below. Be sure to review it thoroughly before you submit. All criteria must "meet specifications" in order to pass. Make sure you submit both your source and production code in the same repository in separate folders.
