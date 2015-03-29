@@ -2,17 +2,11 @@
 
 ### How to run this project:
 1. Open index.html in a web browser, preferably Google Chrome.
+2. Observe page has been optimized to score better than 90 with Google PageSpeed.
+3. Open views/pizza.html in a web browser, preferably Google Chrome.
+4. Observe page has been optimized to score better than 90 with Google PageSpeed.
+5. Observe page has been optimized to render a consistent framerate of 60fps or less when scrolling
 
-'''bash
-* Observe page has been optimized to score better than 90 with Google PageSpeed.
-'''
-
-2. Open views/pizza.html in a web browser, preferably Google Chrome.
-
-'''bash
-* Observe page has been optimized to score better than 90 with Google PageSpeed.
-* Observe page has been optimized to render a consistent framerate of 60fps or less when scrolling
-'''
 
 ### How I completed this project
 1. Reviewed the course on Website Performance Optimization using Google PageSpeed.
