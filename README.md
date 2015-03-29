@@ -9,15 +9,16 @@ Page has been optimized to score better than 90 with Google PageSpeed.
 Additional optimizations were made based on the Google Chrome PageSpeed add-in.
 Page has been optimized to 60 FPS
 
-## Rubric
+### Evaluation
+The project rubric below reflects all criteria for "meet specifications". Make sure you submit both your source and production code in the same repository in separate folders.
 
 ### Critical Rendering Path for Index.html
- * Identify and perform optimizations to achieve a PageSpeed score of 90
- ** The PageSpeed score of 90 is for index.html (both Mobile and Desktop scores should be at least 90).
- * Exceed Rubric: Identify and perform optimizations to achieve a PageSpeed score aboce 90
+ * Meet Specifications: Identify and perform optimizations to achieve a PageSpeed score of 90 (both Mobile and Desktop scores should be at least 90)
+ * Exceed Specifications: Identify and perform optimizations to achieve a PageSpeed score above 90
 
 ### Framerate for pizza.html
  * Identify and perform optimizations ensuring a consistent framerate at 60fps when scrolling
+ * The file you need to study and change is views/js/main.js
 
 ### Computation Efficiency for pizza.html
 * Time to resize pizzas is less that 5 ms in pizza.html shown in the browser console
@@ -26,16 +27,31 @@ Page has been optimized to 60 FPS
 * Research, identify and use build tools to automatically perform optimaztion such as minification of CSS and JS and image optimizations
 
 ### Comments in views/js/main.js
-* Comments in views/js/main.js for pizza.html are present and effectively explain longer code procedures
+* Comments in views/js/main.js for pizza.html are present and indicate the optimizations done for the Pizzas page.
 
 ### Documentation in README.md file
 * A README.md file is included detailing all staeps required to successfully run the application and outlines the optimizations that were made in views/js/main.js for pizza.html
-* Include Websites, Books, Forums, Blogs, Posts, GitHub repositories, etc. that were referenced or used in this submission
+*Please do not forget to update the README file and make sure you outline all of your optimizations done in main.js for the pizzas page.
 
 ### Submission
+*  Include Websites, Books, Forums, Blogs, Posts, GitHub repositories, etc. that were referenced or used in this submission
 * Submit both the source and production code in the same repository in separate folders
 * Submit code through Link to Project
 
+### Optimizations 
+*	set the javascript to async, to prevent blocking
+*	optimized the images using Kraken.io (https://kraken.io/web-interface), the page speed got to a score of 86
+*	changed the font loading, moved the css to inline, to prevent render blocking, got to a score of 88
+*	used grunt with cssmin, uglifier and htmlmin to minify the JS, CSS and HTML, got to a score of 93
+*	main
+
+### Resources Used:
+*	https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer#minification-preprocessing--context-specific-optimizations
+*	https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer#text-compression-with-gzip
+*	https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching
+*	https://developer.mozilla.org/en-US/docs/Web/API/Document/write
+*	https://github.com/feliu-io/fewd-p4
+*	https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer?hl=en
 
 ### Optimization Tips and Tricks
 * [Optimizing Performance](https://developers.google.com/web/fundamentals/performance/ "web performance")
@@ -64,40 +80,3 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 
 ### Evaluation
 Your project will be evaluated by a Udacity reviewer according to the rubric below. Be sure to review it thoroughly before you submit. All criteria must "meet specifications" in order to pass. Make sure you submit both your source and production code in the same repository in separate folders.
-
-### Submission
-When you're ready to submit your project go back to your Nanodegree Portal, click on Project 4, and follow the instructions to submit.
-*	Start by creating a text file with a list of websites, books, forums, blog posts, Github repositories etc. that you referred to or used in this submission (Add N/A if you did not use such resources).
-*	Please submit your code through "Link to Project" with a link to the appropriate Github repo, using a separate repository for this project.
-*	Please ignore the option to submit through "Upload a Zip".
-It can take us up to 2 weeks to evaluate the project so keep checking back for updates.
-If you are having any problems submitting your project or wish to check on the status of your submission, please email us at frontend-project@udacity.com.
-
-### Next Steps
-Feel free to hop onto the forums to help your fellow students, or work on the next project while you wait to receive your evaluation.
-
-### Instructor Notes
-The PageSpeed score of 90 is for index.html (both Mobile and Desktop scores should be at least 90).
-The frame rate of 60fps should be obtained for the pizza page (views/pizza.html). The file you need to study and change is views/js/main.js.
-Comments should be present in main.js to indicate the optimizations done for the Pizzas page.
-Please do not forget to update the README file and make sure you outline all of your optimizations done in main.js for the pizzas page.
-It's recommended to not measure performance in a virtualized environment. We recommend you measure your FPS performance in your native operating system.
-Below is a picture of what the target timeline should look like. Evaluators will focus their attention on the timeline rather than the FPS meter due to varying hardware factors that may affect FPS.
-Target Timeline
-
-### Optimizations 
-*	set the javascript to async, to prevent blocking
-*	optimized the images using Kraken.io (https://kraken.io/web-interface), the page speed got to a score of 86
-*	changed the font loading, moved the css to inline, to prevent render blocking, got to a score of 88
-*	used grunt with cssmin, uglifier and htmlmin to minify the JS, CSS and HTML, got to a score of 93
-*	main
-
-
-
-### Resources Used:
-*	https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer#minification-preprocessing--context-specific-optimizations
-*	https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer#text-compression-with-gzip
-*	https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching
-*	https://developer.mozilla.org/en-US/docs/Web/API/Document/write
-*	https://github.com/feliu-io/fewd-p4
-*	https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer?hl=en
