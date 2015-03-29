@@ -1,12 +1,41 @@
 ## Website Performance Optimization portfolio project
 
-Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).
+### How to run this project:
+Open index.html in a web browser, preferably Google Chrome.
+Page has been optimized to score better than 90 with Google PageSpeed.
+Additional optimizations were made based on the Google Chrome PageSpeed add-in.
+Open views/pizza.html in a web browser, preferably Google Chrome.
+Page has been optimized to score better than 90 with Google PageSpeed.
+Additional optimizations were made based on the Google Chrome PageSpeed add-in.
+Page has been optimized to 60 FPS
 
-To get started, check out the repository, inspect the code,
+## Rubric
 
-### Getting started
+### Critical Rendering Path for Index.html
+ * Identify and perform optimizations to achieve a PageSpeed score of 90
+ ** The PageSpeed score of 90 is for index.html (both Mobile and Desktop scores should be at least 90).
+ * Exceed Rubric: Identify and perform optimizations to achieve a PageSpeed score aboce 90
 
-Profile, optimize, measure... and then lather, rinse, and repeat. Good luck!
+### Framerate for pizza.html
+ * Identify and perform optimizations ensuring a consistent framerate at 60fps when scrolling
+
+### Computation Efficiency for pizza.html
+* Time to resize pizzas is less that 5 ms in pizza.html shown in the browser console
+
+### Build Tools
+* Research, identify and use build tools to automatically perform optimaztion such as minification of CSS and JS and image optimizations
+
+### Comments in views/js/main.js
+* Comments in views/js/main.js for pizza.html are present and effectively explain longer code procedures
+
+### Documentation in README.md file
+* A README.md file is included detailing all staeps required to successfully run the application and outlines the optimizations that were made in views/js/main.js for pizza.html
+* Include Websites, Books, Forums, Blogs, Posts, GitHub repositories, etc. that were referenced or used in this submission
+
+### Submission
+* Submit both the source and production code in the same repository in separate folders
+* Submit code through Link to Project
+
 
 ### Optimization Tips and Tricks
 * [Optimizing Performance](https://developers.google.com/web/fundamentals/performance/ "web performance")
@@ -63,10 +92,7 @@ Target Timeline
 *	used grunt with cssmin, uglifier and htmlmin to minify the JS, CSS and HTML, got to a score of 93
 *	main
 
-### How to run:
-Download the zip file and open the "index.html" file with your favorite browser.
-Each page has optimized to achieve a 90+ Google PageSpeed score. Javascript has also been optimized to achieve a 60+ FPS rendering speed. I have included two versions of each HTML page: a production version and a development version.
-The production versions include minified CSS and Javascript. They are the .html files (e.g. index.html). The development versions include no minification, so that you can more easily read through the code and understand what's happening. They are the _dev.html files (e.g. index_dev.html).
+
 
 ### Resources Used:
 *	https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer#minification-preprocessing--context-specific-optimizations
