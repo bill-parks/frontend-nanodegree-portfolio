@@ -2,10 +2,13 @@
 
 ### How to run this project:
 1. Open index.html in a web browser, preferably Google Chrome.
+
 '''bash
 * Observe page has been optimized to score better than 90 with Google PageSpeed.
 '''
+
 2. Open views/pizza.html in a web browser, preferably Google Chrome.
+
 '''bash
 * Observe page has been optimized to score better than 90 with Google PageSpeed.
 * Observe page has been optimized to render a consistent framerate of 60fps or less when scrolling
