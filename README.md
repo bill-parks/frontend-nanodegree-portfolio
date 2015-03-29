@@ -2,17 +2,23 @@
 
 ### How to run this project:
 1. Open index.html in a web browser, preferably Google Chrome.
+'''bash
 * Observe page has been optimized to score better than 90 with Google PageSpeed.
+'''
 2. Open views/pizza.html in a web browser, preferably Google Chrome.
+'''bash
 * Observe page has been optimized to score better than 90 with Google PageSpeed.
 * Observe page has been optimized to render a consistent framerate of 60fps or less when scrolling
+'''
 
 ### How I completed this project
 1. Reviewed the course on Website Performance Optimization using Google PageSpeed.
 2. Downloaded the required project assets.
 3. Used Chrome Developer Tools to review the current state of various pages within the application and identified areas for improvement.
 4. Reviewed the code powering the website and identified areas where I believe modifications are warranted.
-5. Iteratively made changes and tested those changes using the tools available to me to determine if they were a performance gain or loss.### Optimizations 
+5. Iteratively made changes and tested those changes using the tools available to me to determine if they were a performance gain or loss.
+
+### Optimizations 
 *	set the javascript to async, to prevent blocking
 *	optimized the images using Kraken.io (https://kraken.io/web-interface), the page speed got to a score of 86
 *	changed the font loading, moved the css to inline, to prevent render blocking, got to a score of 88
