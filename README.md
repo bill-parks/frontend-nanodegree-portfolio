@@ -1,13 +1,11 @@
 ## Website Performance Optimization portfolio project
 
 ### How to run this project:
-Open index.html in a web browser, preferably Google Chrome.
-Page has been optimized to score better than 90 with Google PageSpeed.
-Additional optimizations were made based on the Google Chrome PageSpeed add-in.
-Open views/pizza.html in a web browser, preferably Google Chrome.
-Page has been optimized to score better than 90 with Google PageSpeed.
-Additional optimizations were made based on the Google Chrome PageSpeed add-in.
-Page has been optimized to 60 FPS
+1. Open index.html in a web browser, preferably Google Chrome.
+* Observe page has been optimized to score better than 90 with Google PageSpeed.
+2. Open views/pizza.html in a web browser, preferably Google Chrome.
+* Observe page has been optimized to score better than 90 with Google PageSpeed.
+* Observe page has been optimized to render a consistent framerate of 60fps or less when scrolling
 
 ### How I completed this project
 1. Reviewed the course on Website Performance Optimization using Google PageSpeed.
