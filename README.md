@@ -6,26 +6,6 @@ To get started, check out the repository, inspect the code,
 
 ### Getting started
 
-Some useful tips to help you get started:
-
-1. Check out the repository
-1. To inspect the site on your phone, you can run a local server
-
-  ```bash
-  $> cd /path/to/your-project-folder
-  $> python -m SimpleHTTPServer 8080
-  ```
-
-1. Open a browser and visit localhost:8080
-1. Download and install [ngrok](https://ngrok.com/) to make your local server accessible remotely.
-
-  ``` bash
-  $> cd /path/to/your-project-folder
-  $> ngrok 8080
-  ```
-
-1. Copy the public URL ngrok gives you and try running it through PageSpeed Insights! [More on integrating ngrok, Grunt and PageSpeed.](http://www.jamescryer.com/2014/06/12/grunt-pagespeed-and-ngrok-locally-testing/)
-
 Profile, optimize, measure... and then lather, rinse, and repeat. Good luck!
 
 ### Optimization Tips and Tricks
@@ -46,20 +26,52 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 * <a href="http://getbootstrap.com/css/">Bootstrap's CSS Classes</a>
 * <a href="http://getbootstrap.com/components/">Bootstrap's Components</a>
 
-### Sample Portfolios
+### How will I complete this project?
+1. Review our course on Website Performance Optimization using Google PageSpeed.
+2. Download the required project assets.
+3. Use Chrome Developer Tools to review the current state of various pages within the application and identify areas for improvement.
+4. Review the code powering the website and identify areas where you believe modifications are warranted.
+5. Iteratively make changes and test those changes using the tools available to you to determine if they are a performance gain or loss.
 
-Feeling uninspired by the portfolio? Here's a list of cool portfolios I found after a few minutes of Googling.
+### Evaluation
+Your project will be evaluated by a Udacity reviewer according to the rubric below. Be sure to review it thoroughly before you submit. All criteria must "meet specifications" in order to pass. Make sure you submit both your source and production code in the same repository in separate folders.
 
-* <a href="http://www.reddit.com/r/webdev/comments/280qkr/would_anybody_like_to_post_their_portfolio_site/">A great discussion about portfolios on reddit</a>
-* <a href="http://ianlunn.co.uk/">http://ianlunn.co.uk/</a>
-* <a href="http://www.adhamdannaway.com/portfolio">http://www.adhamdannaway.com/portfolio</a>
-* <a href="http://www.timboelaars.nl/">http://www.timboelaars.nl/</a>
-* <a href="http://futoryan.prosite.com/">http://futoryan.prosite.com/</a>
-* <a href="http://playonpixels.prosite.com/21591/projects">http://playonpixels.prosite.com/21591/projects</a>
-* <a href="http://colintrenter.prosite.com/">http://colintrenter.prosite.com/</a>
-* <a href="http://calebmorris.prosite.com/">http://calebmorris.prosite.com/</a>
-* <a href="http://www.cullywright.com/">http://www.cullywright.com/</a>
-* <a href="http://yourjustlucky.com/">http://yourjustlucky.com/</a>
-* <a href="http://nicoledominguez.com/portfolio/">http://nicoledominguez.com/portfolio/</a>
-* <a href="http://www.roxannecook.com/">http://www.roxannecook.com/</a>
-* <a href="http://www.84colors.com/portfolio.html">http://www.84colors.com/portfolio.html</a>
+### Submission
+When you're ready to submit your project go back to your Nanodegree Portal, click on Project 4, and follow the instructions to submit.
+*	Start by creating a text file with a list of websites, books, forums, blog posts, Github repositories etc. that you referred to or used in this submission (Add N/A if you did not use such resources).
+*	Please submit your code through "Link to Project" with a link to the appropriate Github repo, using a separate repository for this project.
+*	Please ignore the option to submit through "Upload a Zip".
+It can take us up to 2 weeks to evaluate the project so keep checking back for updates.
+If you are having any problems submitting your project or wish to check on the status of your submission, please email us at frontend-project@udacity.com.
+
+### Next Steps
+Feel free to hop onto the forums to help your fellow students, or work on the next project while you wait to receive your evaluation.
+
+### Instructor Notes
+The PageSpeed score of 90 is for index.html (both Mobile and Desktop scores should be at least 90).
+The frame rate of 60fps should be obtained for the pizza page (views/pizza.html). The file you need to study and change is views/js/main.js.
+Comments should be present in main.js to indicate the optimizations done for the Pizzas page.
+Please do not forget to update the README file and make sure you outline all of your optimizations done in main.js for the pizzas page.
+It's recommended to not measure performance in a virtualized environment. We recommend you measure your FPS performance in your native operating system.
+Below is a picture of what the target timeline should look like. Evaluators will focus their attention on the timeline rather than the FPS meter due to varying hardware factors that may affect FPS.
+Target Timeline
+
+### Optimizations 
+*	set the javascript to async, to prevent blocking
+*	optimized the images using Kraken.io (https://kraken.io/web-interface), the page speed got to a score of 86
+*	changed the font loading, moved the css to inline, to prevent render blocking, got to a score of 88
+*	used grunt with cssmin, uglifier and htmlmin to minify the JS, CSS and HTML, got to a score of 93
+*	main
+
+### How to run:
+Download the zip file and open the "index.html" file with your favorite browser.
+Each page has optimized to achieve a 90+ Google PageSpeed score. Javascript has also been optimized to achieve a 60+ FPS rendering speed. I have included two versions of each HTML page: a production version and a development version.
+The production versions include minified CSS and Javascript. They are the .html files (e.g. index.html). The development versions include no minification, so that you can more easily read through the code and understand what's happening. They are the _dev.html files (e.g. index_dev.html).
+
+### Resources Used:
+*	https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer#minification-preprocessing--context-specific-optimizations
+*	https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer#text-compression-with-gzip
+*	https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching
+*	https://developer.mozilla.org/en-US/docs/Web/API/Document/write
+*	https://github.com/feliu-io/fewd-p4
+*	https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer?hl=en
