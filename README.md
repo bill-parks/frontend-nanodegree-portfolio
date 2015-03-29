@@ -12,29 +12,29 @@ Page has been optimized to 60 FPS
 ### Evaluation
 The project rubric below reflects all criteria for "meet specifications". Make sure you submit both your source and production code in the same repository in separate folders.
 
-### Critical Rendering Path for Index.html
+#### Critical Rendering Path for Index.html
  * Meet Specifications: Identify and perform optimizations to achieve a PageSpeed score of 90 (both Mobile and Desktop scores should be at least 90)
  * Exceed Specifications: Identify and perform optimizations to achieve a PageSpeed score above 90
 
-### Framerate for pizza.html
+#### Framerate for pizza.html
  * Identify and perform optimizations ensuring a consistent framerate at 60fps when scrolling
  * The file you need to study and change is views/js/main.js
 
-### Computation Efficiency for pizza.html
+#### Computation Efficiency for pizza.html
 * Time to resize pizzas is less that 5 ms in pizza.html shown in the browser console
 
-### Build Tools
+#### Build Tools
 * Research, identify and use build tools to automatically perform optimaztion such as minification of CSS and JS and image optimizations
 
-### Comments in views/js/main.js
+#### Comments in views/js/main.js
 * Comments in views/js/main.js for pizza.html are present and indicate the optimizations done for the Pizzas page.
 
-### Documentation in README.md file
+#### Documentation in README.md file
 * A README.md file is included detailing all staeps required to successfully run the application and outlines the optimizations that were made in views/js/main.js for pizza.html
 *Please do not forget to update the README file and make sure you outline all of your optimizations done in main.js for the pizzas page.
 
-### Submission
-*  Include Websites, Books, Forums, Blogs, Posts, GitHub repositories, etc. that were referenced or used in this submission
+#### Submission
+* Include Websites, Books, Forums, Blogs, Posts, GitHub repositories, etc. that were referenced or used in this submission
 * Submit both the source and production code in the same repository in separate folders
 * Submit code through Link to Project
 
