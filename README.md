@@ -6,6 +6,7 @@
 3. Open views/pizza.html in a web browser, preferably Google Chrome.
 4. Observe page has been optimized to score better than 90 with Google PageSpeed.
 5. Observe page has been optimized to render a consistent framerate of 60fps or less when scrolling
+6. Observer that the time to resize pizzas is less that 5 ms as shown in the browser console
 
 
 ### How I completed this project
@@ -58,7 +59,6 @@ The project rubric below reflects all criteria for "meets specifications".
 
 #### Documentation in README.md file
 * A README.md file is included detailing all staeps required to successfully run the application and outlines the optimizations that were made in views/js/main.js for pizza.html
-*Please do not forget to update the README file and make sure you outline all of your optimizations done in main.js for the pizzas page.
 
 #### Submission
 * Include Websites, Books, Forums, Blogs, Posts, GitHub repositories, etc. that were referenced or used in this submission
