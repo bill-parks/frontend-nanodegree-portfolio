@@ -12,15 +12,16 @@
 1. Reviewed the course on Website Performance Optimization using Google PageSpeed.
 2. Downloaded the required project assets.
 3. Used Chrome Developer Tools to review the current state of various pages within the application and identified areas for improvement.
-4. Reviewed the code powering the website and identified areas where I believe modifications are warranted.
+4. Reviewed the code powering the website and identified areas where I believe modifications were warranted.
 5. Iteratively made changes and tested those changes using the tools available to me to determine if they were a performance gain or loss.
 
 ### Optimizations 
-*	set the javascript to async, to prevent blocking
-*	optimized the images using Kraken.io (https://kraken.io/web-interface), the page speed got to a score of 86
-*	changed the font loading, moved the css to inline, to prevent render blocking, got to a score of 88
-*	used grunt with cssmin, uglifier and htmlmin to minify the JS, CSS and HTML, got to a score of 93
-*	main
+* Prevent render blocking with async parameter in script tags
+* Prevent render blocking by movinge css to inline
+* Optimize images using GIMP: Resize profilepic.jpg, create sized copies of pizza.jpg (pizzeria100-75.jpg and pizzeria360-270.jpg)
+* Improve load time with reserved size(s) added to img tags
+* Minify CSS and JS
+* main.js
 
 ### Resources Used
 * [Optimizing Performance](https://developers.google.com/web/fundamentals/performance/ "web performance")
@@ -28,7 +29,7 @@
 * [Optimizing the Critical Rendering Path](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/optimizing-critical-rendering-path.html "optimize the crp!")
 * [Avoiding Rendering Blocking CSS](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-blocking-css.html "render blocking css")
 * [Optimizing JavaScript](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/adding-interactivity-with-javascript.html "javascript")
-* [Measuring with Navigation Timing](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/measure-crp.html "nav timing api"). We didn't cover the Navigation Timing API in the first two lessons but it's an incredibly useful tool for automated page profiling. I highly recommend reading.
+* [Measuring with Navigation Timing](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/measure-crp.html "nav timing api"). 
 * [The fewer the downloads, the better](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/eliminate-downloads.html)
 * [Reduce the size of text](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer.html)
 * [Optimize images](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization.html)
