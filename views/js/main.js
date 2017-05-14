@@ -329,15 +329,15 @@ var makeRandomPizza = function () {
     var numberOfNonMeats = Math.floor((Math.random() * 3));
     var numberOfCheeses = Math.floor((Math.random() * 2));
 
-    for (var meats = 0; i < numberOfMeats; meats++) {
+    for (var meats = 0; meats < numberOfMeats; meats++) {
         pizza = pizza + ingredientItemizer(selectRandomMeat());
     }
 
-    for (var nonMeats = 0; i < numberOfNonMeats; nonMeats++) {
+    for (var nonMeats = 0; nonMeats < numberOfNonMeats; nonMeats++) {
         pizza = pizza + ingredientItemizer(selectRandomNonMeat());
     }
 
-    for (var cheeses = 0; i < numberOfCheeses; cheeses++) {
+    for (var cheeses = 0; cheeses < numberOfCheeses; cheeses++) {
         pizza = pizza + ingredientItemizer(selectRandomCheese());
     }
 
